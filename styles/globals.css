@@ -19,3 +19,10 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.special-padding {
+  padding-left: 0.5rem;
+  padding-right: 8.6rem;
+  padding-top: 0.59rem;
+  padding-bottom: 0.59rem;
+}

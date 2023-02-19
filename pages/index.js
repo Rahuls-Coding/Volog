@@ -37,13 +37,27 @@ export default function Home() {
             </button>
           </div>
         </div>
-      <div className="w-full py-24 mt-20 border border-gray-600 rounded-md "> 
-        <div  className="grid grid-cols-2 gap-2">
-          <Input/>
-          <Input/>
-          <Input/>
-          <Input/>
+      <div className="w-full py-10 mt-20 border border-gray-600 rounded-md flex flex-col flex-nonwrap place-content-center items-center"> 
+        <div className="flex justify-center items-start">
+        <div className="grid grid-cols-2 gap-10">
+          <Input label='Organization Title' placeholder='Key Club'/>
+          <Input label='Date of Volunteering ' placeholder='11-21-2023'/>
+          <Input label='Number of Hours' placeholder='4'/>
+          <div className="w-fit">
+              <div className="pb-1 w-fit text-md text-gray-600">
+              Status
+              </div>
+              <select name="cars" id="cars" className=" bg-[#F8F8F8] text-base border border-[#D9D9D9] rounded special-padding">
+                <option value="verified">✔️ Verified</option>
+                <option value="inprogress">⌛ In-Progress</option>
+                <option value="rejected">🚫 Rejected</option>
+              </select>
         </div>
+          </div>
+        </div>
+        <button className="mt-10 py-2 px-6 rounded bg-[#4ECB71] text-white">
+          Continue 
+        </button>
       </div>
     </div>
   );
