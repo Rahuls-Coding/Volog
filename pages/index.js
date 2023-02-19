@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
+import Input from "../components/Input";
 
 export default function Home() {
   return (
@@ -7,7 +8,6 @@ export default function Home() {
       <Head>
         <title>Add New Data</title>
       </Head>
-      <div className="w-full">
         <div className="mt-20 w-full flex text-sm rounded-md">
           <div className="w-3/4 flex items-center ">
             <div className="text-2xl">ADD NEW DATA</div>
@@ -31,11 +31,18 @@ export default function Home() {
                   />
                 </svg>
               </div>
-              <Link className="text-md" href="/tools">
+              <div className="text-md" >
                 INFO
-              </Link>
+              </div>
             </button>
           </div>
+        </div>
+      <div className="w-full py-24 mt-20 border border-gray-600 rounded-md "> 
+        <div  className="grid grid-cols-2 gap-2">
+          <Input/>
+          <Input/>
+          <Input/>
+          <Input/>
         </div>
       </div>
     </div>
