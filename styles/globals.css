@@ -1,16 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Atkinson Hyperlegible', sans-serif;
-
+  font-family: "Atkinson Hyperlegible", sans-serif;
 }
 
 a {
@@ -21,4 +19,3 @@ a {
 * {
   box-sizing: border-box;
 }
-
