@@ -4,7 +4,7 @@ A basic minimal design app to track your volunteering hours and activities. Will
 
 ## Stack
 
-- Database: [Redis]](https://redis.io/)
+- Database: [Redis](https://redis.io/)
 - Framework: [Next.js](https://nextjs.org/)
 - Frontend (Styling): [Tailwind CSS](https://tailwindcss.com/)
 
